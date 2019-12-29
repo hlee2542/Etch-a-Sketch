@@ -46,3 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*body css*/
+
+#root * {
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+}
+
+.square {
+	border: 1px solid black;
+	width: 80px;
+	height: 80px;
+	flex-shrink: 0;
+}
